@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface IOANTLib2 : NSObject
+/**
+ 
+ 使用方法 将.a 与.h导入 在Build setting->Other link flags 设置 -ObjC;
+ 
+ */
 -(void)helloIOANT;
 @end

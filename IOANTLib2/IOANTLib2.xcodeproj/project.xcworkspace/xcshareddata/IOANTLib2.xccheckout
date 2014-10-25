@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>CBE6C35F-1AA6-4771-AB5F-C84C6F65E2D0</string>
+=======
+	<string>A35827AA-B835-4638-926A-C4A537B2D802</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>IOANTLib2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>64D6A5C7-20F6-4EA2-A3C9-7A2105D93FB8</key>
+=======
+		<key>AA840FD6-7DA6-4EC7-ABA5-5B57551EF324</key>
+>>>>>>> FETCH_HEAD
 		<string>https://github.com/lsgit/IOANTLib2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>IOANTLib2/IOANTLib2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>64D6A5C7-20F6-4EA2-A3C9-7A2105D93FB8</key>
+=======
+		<key>AA840FD6-7DA6-4EC7-ABA5-5B57551EF324</key>
+>>>>>>> FETCH_HEAD
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>64D6A5C7-20F6-4EA2-A3C9-7A2105D93FB8</string>
+=======
+	<string>AA840FD6-7DA6-4EC7-ABA5-5B57551EF324</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>64D6A5C7-20F6-4EA2-A3C9-7A2105D93FB8</string>
+=======
+			<string>AA840FD6-7DA6-4EC7-ABA5-5B57551EF324</string>
+>>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>IOANTLib2</string>
 		</dict>
