@@ -25,3 +25,16 @@ DerivedData
 #
 # Pods/
 AppleAPI.xcodeproj/project.xcworkspace/xcuserdata/lanou3g.xcuserdatad/UserInterfaceState.xcuserstate
+*.xccheckout
+
+*.xccheckout
+
+*.xcuserstate
+
+IOANTLib2/IOANTLib2.xcodeproj/project.pbxproj
+
+IOANTLib2/IOANTLib2.xcodeproj/project.xcworkspace/xcshareddata/IOANTLib2.xccheckout
+
+*.xcuserstate
+
+IOANTLib2/IOANTLib2.xcodeproj/project.xcworkspace/xcuserdata/lanou3g.xcuserdatad/UserInterfaceState.xcuserstate
