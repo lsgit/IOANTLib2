@@ -12,10 +12,7 @@
 		C22739C419F7DD320080B924 /* IOANTLib2.m in Sources */ = {isa = PBXBuildFile; fileRef = C22739C319F7DD320080B924 /* IOANTLib2.m */; };
 		C22739CB19F7DD320080B924 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22739CA19F7DD320080B924 /* XCTest.framework */; };
 		C22739CC19F7DD320080B924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22739BC19F7DD320080B924 /* Foundation.framework */; };
-		C22739CE19F7DD320080B924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22739CD19F7DD320080B924 /* UIKit.framework */; };
 		C22739D119F7DD320080B924 /* libIOANTLib2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C22739B919F7DD320080B924 /* libIOANTLib2.a */; };
-		C22739D719F7DD320080B924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C22739D519F7DD320080B924 /* InfoPlist.strings */; };
-		C22739D919F7DD320080B924 /* IOANTLib2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22739D819F7DD320080B924 /* IOANTLib2Tests.m */; };
 		C2273A1119F7DD610080B924 /* IOANTChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C22739E519F7DD610080B924 /* IOANTChineseToPinyin.m */; };
 		C2273A1219F7DD610080B924 /* IOANTpinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C22739E719F7DD610080B924 /* IOANTpinyin.m */; };
 		C2273A1319F7DD610080B924 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C22739EA19F7DD610080B924 /* UIView+Toast.m */; };
@@ -108,10 +105,6 @@
 		C22739C319F7DD320080B924 /* IOANTLib2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOANTLib2.m; sourceTree = "<group>"; };
 		C22739C919F7DD320080B924 /* IOANTLib2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOANTLib2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22739CA19F7DD320080B924 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C22739CD19F7DD320080B924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C22739D419F7DD320080B924 /* IOANTLib2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOANTLib2Tests-Info.plist"; sourceTree = "<group>"; };
-		C22739D619F7DD320080B924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C22739D819F7DD320080B924 /* IOANTLib2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOANTLib2Tests.m; sourceTree = "<group>"; };
 		C22739E419F7DD610080B924 /* IOANTChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOANTChineseToPinyin.h; sourceTree = "<group>"; };
 		C22739E519F7DD610080B924 /* IOANTChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOANTChineseToPinyin.m; sourceTree = "<group>"; };
 		C22739E619F7DD610080B924 /* IOANTpinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOANTpinyin.h; sourceTree = "<group>"; };
@@ -168,7 +161,6 @@
 			files = (
 				C22739D119F7DD320080B924 /* libIOANTLib2.a in Frameworks */,
 				C22739CB19F7DD320080B924 /* XCTest.framework in Frameworks */,
-				C22739CE19F7DD320080B924 /* UIKit.framework in Frameworks */,
 				C22739CC19F7DD320080B924 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +177,6 @@
 				C22739ED19F7DD610080B924 /* threeParty */,
 				C2273A1019F7DD610080B924 /* ui */,
 				C22739BE19F7DD320080B924 /* IOANTLib2 */,
-				C22739D219F7DD320080B924 /* IOANTLib2Tests */,
 				C22739BB19F7DD320080B924 /* Frameworks */,
 				C22739BA19F7DD320080B924 /* Products */,
 			);
@@ -205,7 +196,6 @@
 			children = (
 				C22739BC19F7DD320080B924 /* Foundation.framework */,
 				C22739CA19F7DD320080B924 /* XCTest.framework */,
-				C22739CD19F7DD320080B924 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,24 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				C22739C019F7DD320080B924 /* IOANTLib2-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C22739D219F7DD320080B924 /* IOANTLib2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C22739D819F7DD320080B924 /* IOANTLib2Tests.m */,
-				C22739D319F7DD320080B924 /* Supporting Files */,
-			);
-			path = IOANTLib2Tests;
-			sourceTree = "<group>";
-		};
-		C22739D319F7DD320080B924 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C22739D419F7DD320080B924 /* IOANTLib2Tests-Info.plist */,
-				C22739D519F7DD320080B924 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -414,7 +386,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C22739D719F7DD320080B924 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +423,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C22739D919F7DD320080B924 /* IOANTLib2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,17 +435,6 @@
 			targetProxy = C22739CF19F7DD320080B924 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C22739D519F7DD320080B924 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C22739D619F7DD320080B924 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C22739DA19F7DD320080B924 /* Debug */ = {
@@ -625,6 +584,7 @@
 				C22739DE19F7DD320080B924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22739DF19F7DD320080B924 /* Build configuration list for PBXNativeTarget "IOANTLib2Tests" */ = {
 			isa = XCConfigurationList;
@@ -633,6 +593,7 @@
 				C22739E119F7DD320080B924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
